@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1>sxjnbsx </h1>
+    <p id="demo"> </p>
+    <script>
+        let tool = '{"ravi":['+'{"firstname":"hari","lastname":"shankar"},'+
+        '{"firstname":"saanu","lastname":"kuamr"}]}';
+        const obj = JSON.parse(tool);
+        document.getElementById("demo").innerHTML = obj.ravi[0].firstname + " " + obj.ravi[0].lastname; 
+       
+
+    </script>
+</body>
+</html>
